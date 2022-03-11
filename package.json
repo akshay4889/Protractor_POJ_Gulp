@@ -1,0 +1,19 @@
+{
+  "name": "protractortest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "holland": "protractor conf.js --baseUrl=https://www.hollandamerica.com/",
+    "seabourn": "protractor conf.js --baseUrl=https://www.seabourn.com/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-protractor": "^4.1.1",
+    "jasmine": "^4.0.2",
+    "npm": "^6.14.4",
+    "protractor": "^5.1.1"
+  }
+}
